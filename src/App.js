@@ -11,7 +11,10 @@ function App() {
               src={profile}
               alt="profile"
             />
-            <div>Sarah Dole @sarahdole</div>
+            <div className="name">
+              Sarah Dole
+              <div className="name-alt">@sarahdole</div>
+            </div>
           </div>
           <p>
             I've been searching for high-quaity abstract iamges for my design

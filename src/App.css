@@ -3,9 +3,21 @@ img {
   height: 50px;
   padding: 4px;
 }
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.heading {
+  display: flex;
+  margin: 4px;
+}
+.name {
+  font-size: large;
+}
+
+.name-alt {
+  font-size: small;
+}
+
+.card {
+  width: 300px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
