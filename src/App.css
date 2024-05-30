@@ -1,7 +1,6 @@
 img {
   width: 50px;
   height: 50px;
-  padding: 4px;
 }
 
 .heading {
@@ -10,14 +9,29 @@ img {
 }
 .name {
   font-size: large;
+  color: black;
+  padding: 8px;
+  font-weight: 600;
 }
 
 .name-alt {
   font-size: small;
+  color: black;
+  font-weight: 400;
 }
 
 .card {
   width: 300px;
+  background-color: white;
+  padding: 8px;
+  border-radius: 10px;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+p {
+  color: black;
+  padding: 4px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
